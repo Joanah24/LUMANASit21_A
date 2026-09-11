@@ -1,0 +1,23 @@
+package Prelim;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> names = new ArrayList<>();
+
+        names.add("Joanah");
+        names.add("Levi");
+        names.add("Jl");
+
+        System.out.println(names);
+
+        names.set(0, "Anna");
+
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println(names.get(i));
+        }
+    }
+}
